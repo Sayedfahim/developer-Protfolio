@@ -5,19 +5,23 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    text-align: justify;
+}
 .color-font{
     color: rgb(25, 0, 255);
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .row{
     width: 50%;
-    padding-left: 10%;
+    padding-left: 8%;
 }
 .row img{
-    width: 85%;
-    padding-left: 2%;
+    width: 100%;
+    
 }
 .button{
     text-decoration: none;
@@ -32,4 +36,20 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+.row1{
+    width: 50%;
+    padding-left: 8%;
+    padding-right: 5%;
+
+    
+}
+.row1 img{
+    width: 100%;
+    
+}
+.Buttom-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
